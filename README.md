@@ -1,1 +1,2 @@
-# blog for arshtsingh.github.io
+# blog
+arshtsingh.github.io

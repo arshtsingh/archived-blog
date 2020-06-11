@@ -1,4 +1,43 @@
 baseURL = "https://arshtsingh.github.io/"
 languageCode = "en-us"
-title = "My Blog"
+title = "Arsh Singh"
 theme = "hermit"
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+enableEmoji = true
+
+[author]
+  name = "Arsh Singh"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Garden for Thoughts"
+
+  justifyContent = false
+
+  relatedPosts = false
+
+  code_copy_button = true
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
